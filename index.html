@@ -169,22 +169,14 @@
               </ul>
             </div>
           </div>
-          <div class="col-auto col-lg-2 text-end d-none d-sm-flex">
-            <div class="header-icon">
-              <div>
-                <div class="alt-font fw-500 lg-fs-15">
-                  <a
-                    href="tel:1800222000"
-                    class="widget-text text-white-hover"
-                    ><i
-                      class="feather icon-feather-phone-call me-10px lg-me-5px"
-                    ></i
-                    >1 800 222 000</a
-                  >
-                </div>
-              </div>
-            </div>
-          </div>
+          
+                    
+                    
+                
+                
+              
+            
+          
         </div>
       </nav>
       <!-- end navigation -->
@@ -218,7 +210,7 @@
       <div class="container h-100">
         <div class="row align-items-center justify-content-center h-100">
           <div
-            class="col-xl-5 col-lg-6 col-md-12 text-white text-center text-lg-start position-relative z-index-1 d-flex flex-column justify-content-center h-100 md-mt-50px md-mb-20px xs-mb-10px"
+            class="col-xl-5 mt-50px col-md-12 text-white text-center text-lg-start position-relative z-index-1 d-flex flex-column justify-content-center h-100 md-mt-50px md-mb-20px xs-mb-10px"
             data-anime='{ "el": "childs", "opacity": [0, 1], "rotateY": [90, 0], "rotateZ": [-10, 0], "translateY": [80, 0], "translateZ": [50, 0], "staggervalue": 200, "duration": 600, "delay": 100, "easing": "easeOutCirc" }'
           >
             <span
@@ -263,7 +255,7 @@
               </a>
             </div>
             <div
-              class="row row-cols-3 justify-content-center counter-style-04 w-100 md-w-auto position-absolute lg-position-relative bottom-80px lg-bottom-0px lg-mt-50px"
+              class="row row-cols-3 justify-content-center counter-style-04 w-100 md-w-auto   bottom-80px lg-bottom-0px mt-40px"
             >
               <!-- start counter item -->
               <div class="col text-center text-lg-start">
@@ -314,21 +306,9 @@
               <div class="atropos-scale">
                 <div class="atropos-rotate">
                   <div class="atropos-inner text-center w-100">
-                    <div
-                      data-atropos-offset="-1"
-                      class="position-absolute left-0px right-0px"
-                    >
-                      <img
-                        src="https://via.placeholder.com/975x990"
-                        alt=""
-                      />
-                    </div>
-                    <img
-                      data-atropos-offset="1"
-                      class="position-relative z-index-9 animation-float"
-                      src="images/demo-elearning-hero-banner-02.png"
-                      alt=""
-                    />
+                    <img src="images/new/teen.jpg"
+                    alt="" class="border-radius-20px w-80"/>
+                   
                   </div>
                 </div>
               </div>
@@ -409,12 +389,13 @@
               </span>
             </a>
             <div
-              class="d-flex align-items-center fw-500 text-dark-gray w-100 position-absolute md-position-relative bottom-0 left-minus-5px md-mt-15px"
+              class="d-flex align-items-center fw-500  text-dark-gray w-100 position-absolute md-position-relative bottom-0 left-minus-5px mt-100px sm-mt-30px md-mt-15px"
             >
               <img
-                src="https://via.placeholder.com/156x113"
+                src="images/courses.jpg"
                 alt=""
-              /><span class="d-inline-block position-relative lh-24"
+                class="w-150px me-10px"
+              /><span class="d-inline-block  position-relative lh-24"
                 >Online courses from
                 <a
                   href="demo-elearning-instructors.html"
@@ -453,8 +434,7 @@
                       >Flexible schedule</span
                     >
                     <p>
-                      eLearning allows learners to quickly and more easily
-                      complete their training.
+                      learning on your own schedule with e-learning you can study from anywhere and at any time, as long as you have internet connection
                     </p>
                     <span class="w-60px h-3px bg-yellow d-inline-block"></span>
                   </div>
@@ -483,7 +463,7 @@
                       >Pocket friendly</span
                     >
                     <p>
-                      eLearning allows learners to quickly and more easily
+                      eLearning allows learners to easily
                       complete their training.
                     </p>
                     <span class="w-60px h-3px bg-yellow d-inline-block"></span>
@@ -513,8 +493,7 @@
                       >Expert Instructor</span
                     >
                     <p>
-                      eLearning allows learners to quickly and more easily
-                      complete their training.
+                      our instructors develop knowledge and new skills conducive to creating meaningful and succesful learning experience
                     </p>
                     <span class="w-60px h-3px bg-yellow d-inline-block"></span>
                   </div>
@@ -551,39 +530,40 @@
             <ul
               class="portfolio-filter fw-500 nav nav-tabs justify-content-center justify-content-xl-end border-0"
             >
-              <li class="nav active">
+           
+              <li class="nav">  
                 <a
-                  data-filter="*"
-                  href="#"
+              onclick="myTab('all')"
+             class="tab"
                   >All</a
                 >
               </li>
               <li class="nav">
                 <a
-                  data-filter=".development"
-                  href="#"
-                  >Development</a
+                onclick="myTab('maths1')"
+                 class="tab"
+                  >Mathematics</a
                 >
               </li>
               <li class="nav">
                 <a
-                  data-filter=".business"
-                  href="#"
-                  >Business</a
+                onclick="myTab('physics1')"
+                class="tab"
+                  >physics</a
                 >
               </li>
               <li class="nav">
                 <a
-                  data-filter=".design"
-                  href="#"
-                  >Design</a
+                onclick="myTab('chemistry1')"
+                class="tab"
+                  >Chemistry</a
                 >
               </li>
               <li class="nav">
                 <a
-                  data-filter=".marketing"
-                  href="#"
-                  >Marketing</a
+                onclick="myTab('biology1')"
+                class="tab"
+                  >Biology</a
                 >
               </li>
             </ul>
@@ -596,10 +576,12 @@
         >
           <div class="col-12 filter-content p-md-0">
             <ul
-              class="portfolio-wrapper grid-loading grid grid-3col xxl-grid-3col xl-grid-3col lg-grid-2col md-grid-2col sm-grid-1col xs-grid-1col gutter-extra-large"
+              class="cours sm-w-90 md-w-70"
             >
               <li class="grid-sizer"></li>
               <!-- start portfolio item -->
+               <div class="mathgroup ">
+               <div class="maths">
               <li class="grid-item design transition-inner-all">
                 <div
                   class="services-box-style-06 border-radius-6px hover-box overflow-hidden box-shadow-large"
@@ -607,32 +589,31 @@
                   <div class="image">
                     <a href="demo-elearning-courses-details.html">
                       <img
-                        src="https://via.placeholder.com/600x385"
+                        src="images/new/math1.jpg"
                         alt=""
                       />
                     </a>
                   </div>
                   <div class="bg-white position-relative">
-                    <div
-                      class="bg-dark-gray w-80px h-80px md-w-75px md-h-75px rounded-circle d-flex justify-content-center align-items-center fw-500 text-white fs-20 position-absolute right-30px top-minus-40px"
-                    >
-                      $55
-                    </div>
+                    
+    
+                    
+                  
                     <div
                       class="ps-35px pe-35px pt-30px pb-30px xl-ps-25px xl-pe-25px border-bottom border-color-transparent-dark-very-light"
                     >
                       <span class="d-block mb-10px"
                         ><a
-                          href="demo-elearning-courses.html"
+                          href="demo-elearning-course"
                           class="text-dark-gray text-uppercase fs-15 fw-600 services-text"
-                          >Design</a
+                          >Mathematics</a
                         ><span class="fs-16">Matthew taylor</span></span
                       >
                       <div class="d-flex align-items-center mb-5px">
                         <a
                           href="demo-elearning-courses-details.html"
                           class="text-dark-gray fw-600 fs-19 md-fs-18 lh-28 w-90"
-                          >Business accounting and taxation fundamental</a
+                          >Fundamentals of linear equation and word problem</a
                         >
                       </div>
                       <div class="d-flex align-items-center">
@@ -675,8 +656,12 @@
                   </div>
                 </div>
               </li>
+              </div>
               <!-- end portfolio item -->
               <!-- start portfolio item -->
+
+               <div class="maths">
+
               <li class="grid-item business marketing transition-inner-all">
                 <div
                   class="services-box-style-06 border-radius-6px hover-box overflow-hidden box-shadow-large"
@@ -684,17 +669,17 @@
                   <div class="image">
                     <a href="demo-elearning-courses-details.html">
                       <img
-                        src="https://via.placeholder.com/600x385"
+                        src="images/new/math2.png"
                         alt=""
                       />
                     </a>
                   </div>
                   <div class="bg-white position-relative">
-                    <div
-                      class="bg-dark-gray w-80px h-80px md-w-75px md-h-75px rounded-circle d-flex justify-content-center align-items-center fw-500 text-white fs-20 position-absolute right-30px top-minus-40px"
-                    >
-                      $65
-                    </div>
+                   
+                      
+                
+                  
+                    
                     <div
                       class="ps-35px pe-35px pt-30px pb-30px xl-ps-25px xl-pe-25px border-bottom border-color-transparent-dark-very-light"
                     >
@@ -702,14 +687,14 @@
                         ><a
                           href="demo-elearning-courses.html"
                           class="text-dark-gray text-uppercase fs-15 fw-600 services-text"
-                          >Finance</a
+                          >Mathematics</a
                         ><span class="fs-16">Leonel mooney</span></span
                       >
                       <div class="d-flex align-items-center mb-5px">
                         <a
                           href="demo-elearning-courses-details.html"
                           class="text-dark-gray fw-600 fs-19 md-fs-18 lh-28 w-90"
-                          >Finance fundamentals of management and planning</a
+                          >The Catesian Coordinate system</a
                         >
                       </div>
                       <div class="d-flex align-items-center">
@@ -752,8 +737,14 @@
                   </div>
                 </div>
               </li>
+
+              </div>
+              </div>
+
               <!-- end portfolio item -->
               <!-- start portfolio item -->
+               <div class="physicsgroup">
+               <div class="physics">
               <li class="grid-item development marketing transition-inner-all">
                 <div
                   class="services-box-style-06 border-radius-6px hover-box overflow-hidden box-shadow-large"
@@ -761,17 +752,17 @@
                   <div class="image">
                     <a href="demo-elearning-courses-details.html">
                       <img
-                        src="https://via.placeholder.com/600x385"
+                        src="images/new/physisc1.jpg"
                         alt=""
                       />
                     </a>
                   </div>
                   <div class="bg-white position-relative">
-                    <div
-                      class="bg-dark-gray w-80px h-80px md-w-75px md-h-75px rounded-circle d-flex justify-content-center align-items-center fw-500 text-white fs-20 position-absolute right-30px top-minus-40px"
-                    >
-                      $80
-                    </div>
+                    
+
+                  
+                      
+                    
                     <div
                       class="ps-35px pe-35px pt-30px pb-30px xl-ps-25px xl-pe-25px border-bottom border-color-transparent-dark-very-light"
                     >
@@ -779,14 +770,14 @@
                         ><a
                           href="demo-elearning-courses.html"
                           class="text-dark-gray text-uppercase fs-15 fw-600 services-text"
-                          >Design</a
+                          >Physics</a
                         ><span class="fs-16">Herman miller</span></span
                       >
                       <div class="d-flex align-items-center mb-5px">
                         <a
                           href="demo-elearning-courses-details.html"
                           class="text-dark-gray fw-600 fs-19 md-fs-18 lh-28 w-90"
-                          >Introduction to application design and development</a
+                          >Qualitative analysis of linear motion</a
                         >
                       </div>
                       <div class="d-flex align-items-center">
@@ -829,8 +820,10 @@
                   </div>
                 </div>
               </li>
+              </div>
               <!-- end portfolio item -->
               <!-- start portfolio item -->
+               <div class="physics">
               <li class="grid-item business design transition-inner-all">
                 <div
                   class="services-box-style-06 border-radius-6px hover-box overflow-hidden box-shadow-large"
@@ -838,17 +831,13 @@
                   <div class="image">
                     <a href="demo-elearning-courses-details.html">
                       <img
-                        src="https://via.placeholder.com/600x385"
+                        src="images/new/physics2.jpg"
                         alt=""
                       />
                     </a>
                   </div>
                   <div class="bg-white position-relative">
-                    <div
-                      class="bg-dark-gray w-80px h-80px md-w-75px md-h-75px rounded-circle d-flex justify-content-center align-items-center fw-500 text-white fs-20 position-absolute right-30px top-minus-40px"
-                    >
-                      $60
-                    </div>
+
                     <div
                       class="ps-35px pe-35px pt-30px pb-30px xl-ps-25px xl-pe-25px border-bottom border-color-transparent-dark-very-light"
                     >
@@ -856,14 +845,14 @@
                         ><a
                           href="demo-elearning-courses.html"
                           class="text-dark-gray text-uppercase fs-15 fw-600 services-text"
-                          >Medicine</a
+                          >Physics</a
                         ><span class="fs-16">Shoko mugikura</span></span
                       >
                       <div class="d-flex align-items-center mb-5px">
                         <a
                           href="demo-elearning-courses-details.html"
                           class="text-dark-gray fw-600 fs-19 md-fs-18 lh-28 w-90"
-                          >Genetic testing and sequencing technique</a
+                          >Rectilinear propagation of light</a
                         >
                       </div>
                       <div class="d-flex align-items-center">
@@ -906,8 +895,13 @@
                   </div>
                 </div>
               </li>
+              </div>
+              </div>
+
               <!-- end portfolio item -->
               <!-- start portfolio item -->
+               <div class="biologygroup">
+               <div class="biology">
               <li class="grid-item development design transition-inner-all">
                 <div
                   class="services-box-style-06 border-radius-6px hover-box overflow-hidden box-shadow-large"
@@ -915,17 +909,13 @@
                   <div class="image">
                     <a href="demo-elearning-courses-details.html">
                       <img
-                        src="https://via.placeholder.com/600x385"
+                        src="images/new/biology2.jpg"
                         alt=""
                       />
                     </a>
                   </div>
                   <div class="bg-white position-relative">
-                    <div
-                      class="bg-dark-gray w-80px h-80px md-w-75px md-h-75px rounded-circle d-flex justify-content-center align-items-center fw-500 text-white fs-20 position-absolute right-30px top-minus-40px"
-                    >
-                      $70
-                    </div>
+                    
                     <div
                       class="ps-35px pe-35px pt-30px pb-30px xl-ps-25px xl-pe-25px border-bottom border-color-transparent-dark-very-light"
                     >
@@ -933,14 +923,14 @@
                         ><a
                           href="demo-elearning-courses.html"
                           class="text-dark-gray text-uppercase fs-15 fw-600 services-text"
-                          >Design</a
+                          >Biology</a
                         ><span class="fs-16">Alexa harvard</span></span
                       >
                       <div class="d-flex align-items-center mb-5px">
                         <a
                           href="demo-elearning-courses-details.html"
                           class="text-dark-gray fw-600 fs-19 md-fs-18 lh-28 w-90"
-                          >Introduction to web design and visualization</a
+                          >Genetics: The fundamentals</a
                         >
                       </div>
                       <div class="d-flex align-items-center">
@@ -983,8 +973,91 @@
                   </div>
                 </div>
               </li>
+              </div>
+
+
+              <div class="biology">
+                <li class="grid-item development design transition-inner-all">
+                  <div
+                    class="services-box-style-06 border-radius-6px hover-box overflow-hidden box-shadow-large"
+                  >
+                    <div class="image">
+                      <a href="demo-elearning-courses-details.html">
+                        <img
+                          src="images/new/biology3.jpg"
+                          alt=""
+                        />
+                      </a>
+                    </div>
+                    <div class="bg-white position-relative">
+                    
+                      <div
+                        class="ps-35px pe-35px pt-30px pb-30px xl-ps-25px xl-pe-25px border-bottom border-color-transparent-dark-very-light"
+                      >
+                        <span class="d-block mb-10px"
+                          ><a
+                            href="demo-elearning-courses.html"
+                            class="text-dark-gray text-uppercase fs-15 fw-600 services-text"
+                            >Biology</a
+                          ><span class="fs-16">Alexa harvard</span></span
+                        >
+                        <div class="d-flex align-items-center mb-5px">
+                          <a
+                            href="demo-elearning-courses-details.html"
+                            class="text-dark-gray fw-600 fs-19 md-fs-18 lh-28 w-90"
+                            >Organisms</a
+                          >
+                        </div>
+                        <div class="d-flex align-items-center">
+                          <div class="d-inline-block me-auto">
+                            <div class="review-star-icon float-start">
+                              <i class="bi bi-star-fill"></i
+                              ><i class="bi bi-star-fill"></i
+                              ><i class="bi bi-star-fill"></i
+                              ><i class="bi bi-star-fill"></i
+                              ><i class="bi bi-star-fill"></i>
+                            </div>
+                            <div
+                              class="fs-15 float-start ms-5px position-relative top-2px"
+                            >
+                              (56 Reviews)
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="d-flex justify-content-center align-items-center ps-35px pe-35px xl-ps-25px xl-pe-25px pt-15px pb-20px"
+                      >
+                        <div class="me-auto">
+                          <i
+                            class="feather icon-feather-clipboard text-dark-gray d-inline-block me-5px"
+                          ></i
+                          ><span class="fs-16 text-dark-gray fw-500"
+                            >20 Lessons</span
+                          >
+                        </div>
+                        <div>
+                          <i
+                            class="feather icon-feather-users text-dark-gray d-inline-block me-5px"
+                          ></i
+                          ><span class="fs-16 text-dark-gray fw-500"
+                            >59 Students</span
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                </div>
+
+                </div>
+
+
               <!-- end portfolio item -->
               <!-- start portfolio item -->
+
+              <div class="chemistrygroup">
+               <div class="chemistry">
               <li
                 class="grid-item development business marketing transition-inner-all"
               >
@@ -994,17 +1067,13 @@
                   <div class="image">
                     <a href="demo-elearning-courses-details.html">
                       <img
-                        src="https://via.placeholder.com/600x385"
+                        src="images/new/chemistry3.gif"
                         alt=""
                       />
                     </a>
                   </div>
                   <div class="bg-white position-relative">
-                    <div
-                      class="bg-dark-gray w-80px h-80px md-w-75px md-h-75px rounded-circle d-flex justify-content-center align-items-center fw-500 text-white fs-20 position-absolute right-30px top-minus-40px"
-                    >
-                      $45
-                    </div>
+                    
                     <div
                       class="ps-35px pe-35px pt-30px pb-30px xl-ps-25px xl-pe-25px border-bottom border-color-transparent-dark-very-light"
                     >
@@ -1012,14 +1081,17 @@
                         ><a
                           href="demo-elearning-courses.html"
                           class="text-dark-gray text-uppercase fs-15 fw-600 services-text"
-                          >Business</a
+                          >chemistry</a
+
+
+                         
                         ><span class="fs-16">Leonel mooney</span></span
                       >
                       <div class="d-flex align-items-center mb-5px">
                         <a
                           href="demo-elearning-courses-details.html"
                           class="text-dark-gray fw-600 fs-19 md-fs-18 lh-28 w-90"
-                          >Improve your english vocabulary and language</a
+                          >Chemical Equations</a
                         >
                       </div>
                       <div class="d-flex align-items-center">
@@ -1062,6 +1134,88 @@
                   </div>
                 </div>
               </li>
+               </div>
+
+               <div class="chemistry">
+                <li
+                  class="grid-item development business marketing transition-inner-all"
+                >
+                  <div
+                    class="services-box-style-06 border-radius-6px hover-box overflow-hidden box-shadow-large"
+                  >
+                    <div class="image">
+                      <a href="demo-elearning-courses-details.html">
+                        <img
+                          src="images/new/chemistry2.gif"
+                          alt=""
+                        />
+                      </a>
+                    </div>
+                    <div class="bg-white position-relative">
+                      
+                      <div
+                        class="ps-35px pe-35px pt-30px pb-30px xl-ps-25px xl-pe-25px border-bottom border-color-transparent-dark-very-light"
+                      >
+                        <span class="d-block mb-10px"
+                          ><a
+                            href="demo-elearning-courses.html"
+                            class="text-dark-gray text-uppercase fs-15 fw-600 services-text"
+                            >Chemistry</a
+  
+  
+                           
+                          ><span class="fs-16">Leonel mooney</span></span
+                        >
+                        <div class="d-flex align-items-center mb-5px">
+                          <a
+                            href="demo-elearning-courses-details.html"
+                            class="text-dark-gray fw-600 fs-19 md-fs-18 lh-28 w-90"
+                            >Pure substance and mixtures</a
+                          >
+                        </div>
+                        <div class="d-flex align-items-center">
+                          <div class="d-inline-block me-auto">
+                            <div class="review-star-icon float-start">
+                              <i class="bi bi-star-fill"></i
+                              ><i class="bi bi-star-fill"></i
+                              ><i class="bi bi-star-fill"></i
+                              ><i class="bi bi-star-fill"></i
+                              ><i class="bi bi-star-fill"></i>
+                            </div>
+                            <div
+                              class="fs-15 float-start ms-5px position-relative top-2px"
+                            >
+                              (76 Reviews)
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="d-flex justify-content-center align-items-center ps-35px pe-35px xl-ps-25px xl-pe-25px pt-15px pb-20px"
+                      >
+                        <div class="me-auto">
+                          <i
+                            class="feather icon-feather-clipboard text-dark-gray d-inline-block me-5px"
+                          ></i
+                          ><span class="fs-16 text-dark-gray fw-500"
+                            >18 Lessons</span
+                          >
+                        </div>
+                        <div>
+                          <i
+                            class="feather icon-feather-users text-dark-gray d-inline-block me-5px"
+                          ></i
+                          ><span class="fs-16 text-dark-gray fw-500"
+                            >80 Students</span
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                 </div>
+                 </div>
+
               <!-- end portfolio item -->
             </ul>
           </div>
@@ -1102,19 +1256,15 @@
                   <div class="atropos-inner text-center w-100 overflow-visible">
                     <div
                       data-atropos-offset="-5"
-                      class="position-absolute left-0px"
+                      class=" "
                     >
                       <img
-                        src="https://via.placeholder.com/835x710"
+                        src="images/new/heroimg1.jpg"
+                        class=""
                         alt=""
                       />
                     </div>
-                    <img
-                      data-atropos-offset="5"
-                      class="position-relative z-index-9"
-                      src="images/demo-elearning-06.png"
-                      alt=""
-                    />
+                   
                   </div>
                 </div>
               </div>
@@ -1167,21 +1317,7 @@
                     </div>
                   </a>
                 </div>
-                <div
-                  id="accordion-style-07-01"
-                  class="accordion-collapse collapse show"
-                  data-bs-parent="#accordion-style-07"
-                >
-                  <div class="accordion-body last-paragraph-no-margin">
-                    <p>
-                      Web-based training you can consume at your own pace.
-                      Courses are interactive.
-                    </p>
-                    <i
-                      class="line-icon-Address-Book icon-extra-double-large opacity-2"
-                    ></i>
-                  </div>
-                </div>
+                
               </div>
               <!-- end accordion item -->
               <!-- start accordion item -->
@@ -1201,21 +1337,7 @@
                     </div>
                   </a>
                 </div>
-                <div
-                  id="accordion-style-07-02"
-                  class="accordion-collapse collapse"
-                  data-bs-parent="#accordion-style-07"
-                >
-                  <div class="accordion-body last-paragraph-no-margin">
-                    <p>
-                      Web-based training you can consume at your own pace.
-                      Courses are interactive.
-                    </p>
-                    <i
-                      class="line-icon-Sand-watch icon-extra-double-large opacity-2"
-                    ></i>
-                  </div>
-                </div>
+               
               </div>
               <!-- end accordion item -->
               <!-- start accordion item -->
@@ -1235,21 +1357,7 @@
                     </div>
                   </a>
                 </div>
-                <div
-                  id="accordion-style-07-03"
-                  class="accordion-collapse collapse"
-                  data-bs-parent="#accordion-style-07"
-                >
-                  <div class="accordion-body last-paragraph-no-margin">
-                    <p>
-                      Web-based training you can consume at your own pace.
-                      Courses are interactive.
-                    </p>
-                    <i
-                      class="line-icon-Gear-2 icon-extra-double-large opacity-2"
-                    ></i>
-                  </div>
-                </div>
+                
               </div>
               <!-- end accordion item -->
             </div>
@@ -1364,10 +1472,7 @@
             <h2 class="alt-font text-white fw-600 ls-minus-3px w-85 lg-w-100">
               Trusted by genius people.
             </h2>
-            <p class="w-80 lg-w-100 text-white opacity-4">
-              Lorem ipsum dolor sit amet consectetur adipiscing elit venenatis
-              dictum nec.
-            </p>
+           
             <div class="d-flex align-items-center">
               <div
                 class="col-auto text-center border-end border-color-transparent-white-very-light border-1 me-25px pe-25px"
@@ -1381,26 +1486,27 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-7 position-relative testimonials-style-12">
+          <div class="col-lg-7 sm-w-80 position-relative testimonials-style-12">
             <div
               class="swiper magic-cursor"
               data-slider-options='{ "slidesPerView": 1, "spaceBetween": 50, "loop": true, "autoplay": { "delay": 4000, "disableOnInteraction": false },  "keyboard": { "enabled": true, "onlyInViewport": true }, "breakpoints": { "1200": { "slidesPerView": 1 },  "768": { "slidesPerView": 1 }, "768": { "slidesPerView": 1 }, "320": { "slidesPerView": 1 }, "effect": "slide" }, "navigation": { "nextEl": ".swiper-button-next-nav", "prevEl": ".swiper-button-previous-nav", "effect": "fade" } }'
             >
-              <div class="swiper-wrapper pt-20px pb-20px">
+              <div class="swiper-wrapper d-flex pt-20px pb-20px">
                 <!-- start slider item -->
-                <div class="swiper-slide">
+                <div class="swiper-slide ">
                   <div class="row g-0 border-radius-6px overflow-hidden">
+                    
                     <div class="col-sm-5 services-box-img xs-h-350px">
                       <div
-                        class="h-100 cover-background"
-                        style="
-                          background-image: url(https://via.placeholder.com/305x380);
-                        "
-                      ></div>
+                      class="h-100 w-100 cover-background position-relative"
+                    ><img src="images//new/heroimg.jpg" alt="" class="position-absolute w-100 h-100 object-fit-cover "> </div>
+                  
                     </div>
                     <div
-                      class="col-sm-7 testimonials-box bg-white p-9 sm-p-7 box-shadow-extra-large"
+                      class="col-sm-7 testimonials-box bg-white p-9 sm-p-7  box-shadow-extra-large"
                     >
+
+                    
                       <div
                         class="d-inline-block bg-orange text-white border-radius-50px ps-20px pe-20px fs-15 lh-34 sm-lh-30 ls-minus-1px mb-25px align-middle"
                       >
@@ -1410,7 +1516,10 @@
                         <i class="bi bi-star-fill"></i>
                         <i class="bi bi-star-fill"></i>
                       </div>
-                      <div class="testimonials-box-content">
+                      <div class="testimonials-box-content ">
+
+                      
+
                         <p class="mb-20px">
                           Course materials were good, the mentoring approach was
                           good and working with other people via the internet
@@ -1419,7 +1528,7 @@
                         <div class="fs-18 lh-20 fw-600 text-dark-gray">
                           Charlotte smith
                         </div>
-                        <span class="fs-16 lh-20">Business owner</span>
+                        <span class="fs-16 lh-20">Student</span>
                       </div>
                     </div>
                   </div>
@@ -1430,11 +1539,8 @@
                   <div class="row g-0 border-radius-6px overflow-hidden">
                     <div class="col-sm-5 services-box-img xs-h-350px">
                       <div
-                        class="h-100 cover-background"
-                        style="
-                          background-image: url(https://via.placeholder.com/305x380);
-                        "
-                      ></div>
+                      class="h-100 w-100 cover-background position-relative"
+                    ><img src="images//new/guy.jpg" alt="" class="position-absolute w-100 h-100 object-fit-cover"> </div>
                     </div>
                     <div
                       class="col-sm-7 testimonials-box bg-white p-9 sm-p-7 box-shadow-extra-large"
@@ -1449,15 +1555,17 @@
                         <i class="bi bi-star-fill"></i>
                       </div>
                       <div class="testimonials-box-content">
+
+
+                
+
                         <p class="mb-20px">
-                          Course materials were good, the mentoring approach was
-                          good and working with other people via the internet
-                          was good.
+                         i have been able to pass my exams by studying with e-learning it is very helpful
                         </p>
                         <div class="fs-18 lh-20 fw-600 text-dark-gray">
                           Herman miller
                         </div>
-                        <span class="fs-16 lh-20">Behavioral science</span>
+                        <span class="fs-16 lh-20">Student</span>
                       </div>
                     </div>
                   </div>
@@ -1468,11 +1576,8 @@
                   <div class="row g-0 border-radius-6px overflow-hidden">
                     <div class="col-sm-5 services-box-img xs-h-350px">
                       <div
-                        class="h-100 cover-background"
-                        style="
-                          background-image: url(https://via.placeholder.com/305x380);
-                        "
-                      ></div>
+                        class="h-100 w-100 cover-background position-relative"
+                      ><img src="images//new/elearn.jpg" alt="" class="position-absolute w-100 h-100 object-fit-cover" > </div>
                     </div>
                     <div
                       class="col-sm-7 testimonials-box bg-white p-9 sm-p-7 box-shadow-extra-large"
@@ -1487,6 +1592,7 @@
                         <i class="bi bi-star-fill"></i>
                       </div>
                       <div class="testimonials-box-content">
+
                         <p class="mb-20px">
                           Course materials were good, the mentoring approach was
                           good and working with other people via the internet
@@ -1495,7 +1601,7 @@
                         <div class="fs-18 lh-20 fw-600 text-dark-gray">
                           Matthew taylor
                         </div>
-                        <span class="fs-16 lh-20">Network security</span>
+                        <span class="fs-16 lh-20">Student</span>
                       </div>
                     </div>
                   </div>
@@ -1590,10 +1696,25 @@
     </section>
     <!-- end section -->
     <!-- start section -->
+    
+
+
+
+
+
+    <!--- section to remove -->
+
+
+
     <section
       class="bg-gradient-tranquil-white overflow-hidden position-relative overlap-height pb-5 md-pb-7 xs-pb-50px"
     >
-      <div class="container overlap-gap-section">
+
+
+
+
+    <!--  
+    <div class="container overlap-gap-section">
         <div
           class="row justify-content-center align-items-center mb-4 text-center text-md-start"
         >
@@ -1629,8 +1750,26 @@
               data-anime='{ "el": "childs", "translateY": [50, 0], "opacity": [0,1], "duration": 1200, "delay": 0, "staggervalue": 150, "easing": "easeOutQuad" }'
             >
               <li class="grid-sizer"></li>
-              <!-- start blog item -->
-              <li class="grid-item">
+
+
+
+          -->
+
+
+
+              <!--start blog item-->
+
+
+
+
+
+
+
+
+
+
+             <!--- 
+             <li class="grid-item">
                 <div
                   class="card border-0 border-radius-4px overflow-hidden box-shadow-large box-shadow-extra-large-hover"
                 >
@@ -1680,8 +1819,21 @@
                   </div>
                 </div>
               </li>
+
+              --->
+
+
+
               <!-- end blog item -->
               <!-- start blog item -->
+
+
+
+
+
+
+
+               <!---
               <li class="grid-item">
                 <div
                   class="card border-0 border-radius-4px overflow-hidden box-shadow-large box-shadow-extra-large-hover"
@@ -1732,9 +1884,10 @@
                   </div>
                 </div>
               </li>
+            -->
               <!-- end blog item -->
               <!-- start blog item -->
-              <li class="grid-item">
+              <!-- <li class="grid-item">
                 <div
                   class="card border-0 border-radius-4px overflow-hidden box-shadow-large box-shadow-extra-large-hover"
                 >
@@ -1784,11 +1937,21 @@
                   </div>
                 </div>
               </li>
-              <!-- end blog item -->
+             
             </ul>
           </div>
         </div>
-        <div class="row justify-content-center mt-5">
+      -->
+      
+
+
+
+
+
+
+
+
+        <div class="row justify-content-center mb-30px">
           <!-- start features box item -->
           <div
             class="col-auto icon-with-text-style-08 md-mb-10px xs-mb-15px pe-25px md-pe-15px"
@@ -1837,7 +2000,24 @@
           <!-- end features box item -->
         </div>
       </div>
-    </section>
+    </section> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <!-- end section -->
     <!-- start footer -->
     <footer class="bg-gradient-aztec-green position-relative">
