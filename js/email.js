@@ -1,12 +1,12 @@
 // public key
 (function () {
-    emailjs.init('fHrt0X3pkTdPAhT5u'); 
+    emailjs.init('t0tOdISWqR7t3sxuZ'); 
 })();
 
 
 function sendEmail(formData) {
-    return emailjs.send("service_htxpf2m", "template_dyzx0v9", {
-        to_email: "cyberspacetechhub@gmail.com",  
+    return emailjs.send("service_tpi5ku8", "template_fcq0ecn", {
+        to_email: "schoolruns.intl@gmail.com",  
         from_name: formData.name,  
         name: formData.name,  
         phone: formData.phone,  
