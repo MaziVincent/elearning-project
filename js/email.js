@@ -5,7 +5,7 @@
 
 
 function sendEmail(formData) {
-    return emailjs.send("service_tpi5ku8", "template_fcq0ecn", {
+    return emailjs.send("service_autsiud", "template_fcq0ecn", {
         to_email: "schoolruns.intl@gmail.com",  
         from_name: formData.name,  
         name: formData.name,  
